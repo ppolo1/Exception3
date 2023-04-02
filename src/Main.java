@@ -23,8 +23,8 @@ public class Main {
     public static void main(String[] args) {
         int n1, n2, sol;
 
-        do {
-            do {
+        do {// sirve para comprobar que el usuario no quiere salir
+            do {// sirve para comprobar qeu la división es correcta
                     System.out.println("Introduzca el primer numero");
                     n1 = pedirNumero();
                     System.out.println("Introduzca el segundo numero");
